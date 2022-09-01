@@ -10,8 +10,8 @@ typedef struct Date
 }date;
 
 //functions
-void set_ate(date *d); //take date from user input
-void print_ate(date *d); //print date to std output
+void set_date(date *d); //take date from user input
+void print_date(date *d); //print date to std output
 int compare_date(date *d1, date *d2); //compare two dates
 
 #endif // DATE_H
